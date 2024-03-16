@@ -1,9 +1,19 @@
 /* App.css */
+
+body {
+  margin: 0; /* Reset default margin */
+  padding: 0; /* Reset default padding */
+  background-color: bisque; /* Change this color to your desired background color */
+}
+
+
 .App {
   text-align: center;
   margin-top: 50px;
+ 
 }
 
+/* Button Styles */
 .button-container {
   position: fixed;
   top: 20px;
@@ -28,16 +38,30 @@
   background-color: #0056b3;
 }
 
+/* Content Styles */
 .content {
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Text Styles */
 .fact,
 .breed {
   font-size: 18px;
   line-height: 1.5;
 }
 
+/* Hidden Element */
 .hidden {
   visibility: hidden;
+}
+
+/* Focus Styles for Buttons */
+.generate-button:focus,
+.breed-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.4);
 }
