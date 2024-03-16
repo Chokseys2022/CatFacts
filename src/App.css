@@ -1,0 +1,43 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button-container {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.generate-button,
+.breed-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.generate-button:hover,
+.breed-button:hover {
+  background-color: #0056b3;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.fact,
+.breed {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.hidden {
+  visibility: hidden;
+}
